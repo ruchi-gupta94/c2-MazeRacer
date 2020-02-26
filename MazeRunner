@@ -1,0 +1,117 @@
+var wall1 = createSprite(100, 10,5,65);
+var wall2 = createSprite(140, 40,80,5);
+var wall3 = createSprite(177, 64,5,45);
+var wall4 = createSprite(220, 10,5,145);
+var wall5 = createSprite(280, 80,124,5);
+var wall6 = createSprite(340, 105,5,50);
+var wall7 = createSprite(210, 130,265,5);
+var wall8 = createSprite(130, 110,5,45);
+var wall9 = createSprite(350, 35,100,5);
+var wall10 = createSprite(290, 155,5,50);
+var wall11 = createSprite(400, 175,100,5);
+var wall12 = createSprite(350, 227,5,110);
+var wall13 = createSprite(297, 230,110,5);
+var wall14 = createSprite(240, 205,5,55);
+var wall15 = createSprite(185, 180,110,5);
+var wall16 = createSprite(80, 175,5,90);
+var wall17 = createSprite(105, 217,50,5);
+var wall18 = createSprite(130, 274,5,120);
+var wall19 = createSprite(210, 280,160,5);
+var wall20 = createSprite(180, 257,5,50);
+var wall21 = createSprite(235, 307,5,50);
+var wall22 = createSprite(290, 400,5,120);
+var wall23 = createSprite(180, 400,5,120);
+var wall24 = createSprite(75, 400,5,240);
+var wall25 = createSprite(55, 280,45,5);
+var wall26 = createSprite(10, 215,60,5);
+var wall27 = createSprite(10, 340,55,5);
+var wall28 = createSprite(50,160,60,5);
+var wall29 = createSprite(10, 100,100,5);
+var wall30 = createSprite(60, 75,5,55);
+var wall31 = createSprite(80, 70,40,5);
+var wall32 = createSprite(400, 320,115,5);
+
+wall1.shapeColor = "red";
+wall2.shapeColor = "red"
+wall3.shapeColor = "red"
+wall4.shapeColor = "orange"
+wall5.shapeColor = "orange"
+wall6.shapeColor = "orange"
+wall7.shapeColor = "yellow"
+wall8.shapeColor = "yellow"
+wall9.shapeColor = "orange"
+wall10.shapeColor = "yellow"
+wall11.shapeColor = "green"
+wall12.shapeColor = "green"
+wall13.shapeColor = "green"
+wall14.shapeColor = "green"
+wall15.shapeColor = "green"
+wall16.shapeColor = "green"
+wall17.shapeColor = "skyblue"
+wall18.shapeColor = "skyblue"
+wall19.shapeColor = "skyblue"
+wall20.shapeColor = "skyblue"
+wall21.shapeColor = "skyblue"
+wall22.shapeColor = "blue"
+wall23.shapeColor = "blue"
+wall24.shapeColor = "purple"
+wall25.shapeColor = "purple"
+wall26.shapeColor = "skyblue"
+wall27.shapeColor = "purple"
+wall28.shapeColor = "green"
+wall29.shapeColor = "orange"
+wall30.shapeColor = "red"
+wall31.shapeColor = "red"
+wall32.shapeColor = "blue"
+
+var ball = createSprite(374, 15,10,10);
+ball.shapeColor = "white"
+ball.velocityX= -4;
+ball.velocityY = 3;
+
+
+
+function draw() {
+	background("black")
+	createEdgeSprites();
+  
+			ball.bounceOff(wall1);
+			ball.bounceOff(wall2);
+			ball.bounceOff(wall3);
+			ball.bounceOff(wall4);
+			ball.bounceOff(wall5);
+			ball.bounceOff(wall6);
+			ball.bounceOff(wall7);
+			ball.bounceOff(wall8);
+			ball.bounceOff(wall9);
+			ball.bounceOff(wall10);
+			ball.bounceOff(wall11);
+			ball.bounceOff(wall12);
+			ball.bounceOff(wall13);
+			ball.bounceOff(wall14);
+			ball.bounceOff(wall15);
+			ball.bounceOff(wall16);
+			ball.bounceOff(wall17);
+			ball.bounceOff(wall18);
+			ball.bounceOff(wall19);
+			ball.bounceOff(wall20);
+			ball.bounceOff(wall21);
+			ball.bounceOff(wall22);
+			ball.bounceOff(wall23);
+			ball.bounceOff(wall24);
+			ball.bounceOff(wall25);
+			ball.bounceOff(wall26);
+			ball.bounceOff(wall27);
+			ball.bounceOff(wall28);
+			ball.bounceOff(wall29);
+			ball.bounceOff(wall30);
+			ball.bounceOff(wall31);
+			ball.bounceOff(wall32);
+			ball.bounceOff(edges);
+			
+			
+			drawSprites();
+ 
+ }
+  
+// code.org link : https://studio.code.org/projects/gamelab/uUeJigN8nDdkNYmpqXm6VZYwh5RlqubxFFScamYhGjc
