@@ -1,4 +1,4 @@
-# c2-MazeRacer
-Colourful Maze Runner
+### MazeRacer using sprites library of code.org
+##### Colourful Maze Runner using sprites properties
 
-code.org link : https://studio.code.org/projects/gamelab/uUeJigN8nDdkNYmpqXm6VZYwh5RlqubxFFScamYhGjc
+##### code.org link / output link : https://studio.code.org/projects/gamelab/uUeJigN8nDdkNYmpqXm6VZYwh5RlqubxFFScamYhGjc
