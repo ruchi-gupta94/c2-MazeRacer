@@ -72,46 +72,45 @@ ball.velocityY = 3;
 
 
 function draw() {
-	background("black")
-	createEdgeSprites();
+    
+  background("black")
+   createEdgeSprites();
   
-			ball.bounceOff(wall1);
-			ball.bounceOff(wall2);
-			ball.bounceOff(wall3);
-			ball.bounceOff(wall4);
-			ball.bounceOff(wall5);
-			ball.bounceOff(wall6);
-			ball.bounceOff(wall7);
-			ball.bounceOff(wall8);
-			ball.bounceOff(wall9);
-			ball.bounceOff(wall10);
-			ball.bounceOff(wall11);
-			ball.bounceOff(wall12);
-			ball.bounceOff(wall13);
-			ball.bounceOff(wall14);
-			ball.bounceOff(wall15);
-			ball.bounceOff(wall16);
-			ball.bounceOff(wall17);
-			ball.bounceOff(wall18);
-			ball.bounceOff(wall19);
-			ball.bounceOff(wall20);
-			ball.bounceOff(wall21);
-			ball.bounceOff(wall22);
-			ball.bounceOff(wall23);
-			ball.bounceOff(wall24);
-			ball.bounceOff(wall25);
-			ball.bounceOff(wall26);
-			ball.bounceOff(wall27);
-			ball.bounceOff(wall28);
-			ball.bounceOff(wall29);
-			ball.bounceOff(wall30);
-			ball.bounceOff(wall31);
-			ball.bounceOff(wall32);
-			ball.bounceOff(edges);
-			
-			
-			drawSprites();
+ball.bounceOff(wall1);
+ball.bounceOff(wall2);
+ball.bounceOff(wall3);
+ball.bounceOff(wall4);
+ball.bounceOff(wall5);
+ball.bounceOff(wall6);
+ball.bounceOff(wall7);
+ball.bounceOff(wall8);
+ball.bounceOff(wall9);
+ball.bounceOff(wall10);
+ball.bounceOff(wall11);
+ball.bounceOff(wall12);
+ball.bounceOff(wall13);
+ball.bounceOff(wall14);
+ball.bounceOff(wall15);
+ball.bounceOff(wall16);
+ball.bounceOff(wall17);
+ball.bounceOff(wall18);
+ball.bounceOff(wall19);
+ball.bounceOff(wall20);
+ball.bounceOff(wall21);
+ball.bounceOff(wall22);
+ball.bounceOff(wall23);
+ball.bounceOff(wall24);
+ball.bounceOff(wall25);
+ball.bounceOff(wall26);
+ball.bounceOff(wall27);
+ball.bounceOff(wall28);
+ball.bounceOff(wall29);
+ball.bounceOff(wall30);
+ball.bounceOff(wall31);
+ball.bounceOff(wall32);
+ball.bounceOff(edges);
+  drawSprites();
  
  }
   
-// code.org link : https://studio.code.org/projects/gamelab/uUeJigN8nDdkNYmpqXm6VZYwh5RlqubxFFScamYhGjc
+
